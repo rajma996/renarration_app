@@ -8,7 +8,8 @@
 #+LATEX: Literal LaTeX code for export
 
 
-#+BEGIN_SRC text :tangle ../../build/docs/requirements.txt : eval no
+#+BEGIN_SRC spec :tangle ../../build/docs/
+
 * Requirements
 
 The requirements for the first release are the following:

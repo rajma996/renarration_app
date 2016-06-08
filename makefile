@@ -46,6 +46,7 @@ init: pull-literate-tools
 
 build: init write-version
 	emacs  --script elisp/publish.el
+
 	rsync -a ${SRC_DIR}/datamodel ${BUILD_DIR}/code
 	rsync -a ${SRC_DIR}/${ORG_DIR} ${BUILD_DIR}/docs
 	rsync -a ${SRC_DIR}/${STYLE_DIR} ${BUILD_DIR}/docs
